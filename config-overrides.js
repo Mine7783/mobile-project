@@ -6,5 +6,5 @@ module.exports = override(
     style: 'css',
   }),
     // rem适配. 将px改为rem
-   addPostcssPlugins([require("postcss-px2rem")({ remUnit: 100 })])
+   addPostcssPlugins([require("postcss-px2rem")({ remUnit: 37.5 })])
 );
